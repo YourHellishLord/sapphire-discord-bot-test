@@ -1,0 +1,21 @@
+{
+  "name": "sapphire-discord-bot-test",
+  "version": "1.0.0",
+  "description": "testing the sapphire discord bot framework",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --watch src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "."
+  },
+  "author": "YourHellishLord (Mauro De Rosa)",
+  "license": "MIT",
+  "dependencies": {
+    "@sapphire/framework": "^5.2.1",
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5"
+  }
+}
