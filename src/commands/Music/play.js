@@ -29,6 +29,7 @@ class MusicPlayCommand extends Command {
         });
 
         if (isMessageInstance(msg)) {
+            this.container.logger('Music - play command is not completely implemented') // TODO: complete this feature
             return interaction.editReply(`Eh! you wanted to download ${linkOrQuery}, look at that face! look at that face, he didn't expect it`);
         }
 
