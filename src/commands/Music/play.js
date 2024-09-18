@@ -10,7 +10,7 @@ class MusicPlayCommand extends Command {
     registerApplicationCommands(registry) {
         registry.registerChatInputCommand((builder) =>
             builder.setName('play')
-                .setDescription('Play the requested youtube link or youtube title')
+                .setDescription('Play the requested youtube link or search by title')
                 .addStringOption(option =>
                     option.setName('link-or-query')
                         .setDescription('youtube link or video\'s name')
